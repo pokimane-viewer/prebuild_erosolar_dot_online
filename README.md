@@ -4,6 +4,8 @@
 
 # Calculating whether all of AWS combined is capable of decrypting your protected plaintext to alert you, since Encryption, by PDFSage stores your plaintext; you could "copy" to clipboard directly from secure password services in macos, windows, and linux without revealing anything to OBS streaming your passwords.
 
+# https://www.erosolar.online maybe if you're too lazy to deploy prebuild
+
 ![Screenshot 2025-05-06 at 8 27 40 PM](https://github.com/user-attachments/assets/9412f907-05aa-4166-829a-6c79057168b7)
 
 # you can demand whatever you want, yet I'm still laughing in your face 白骑士抽搐定义
