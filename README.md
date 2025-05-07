@@ -13,7 +13,12 @@
 ![wh1](https://github.com/user-attachments/assets/9c83cdd4-e603-4329-8f7d-a41a9185ddc0)
 
 
-# prebuild_erosolar_dot_online
+![Screenshot 2025-05-07 at 1 25 41 PM](https://github.com/user-attachments/assets/104b02dc-b858-4f19-a9a2-7f6e75fbebe5)
+
+
+# prebuild_erosolar_dot_online (joke unless LOL #sad) 
+
+watch dogs 3
 
 /etc/nginx/sites-available/erosolar.conf
 
@@ -64,3 +69,7 @@ server {
 
 
 }
+
+
+
+
