@@ -1,3 +1,13 @@
+# Twitch celebrates Women's history month not requiring me to see exactly how many users they have without a dev account; it's just the most recent user number user_id parameter in their API
+
+![Screenshot 2025-05-06 at 8 24 21 PM](https://github.com/user-attachments/assets/17975d33-bfdc-4de4-b562-51ca35e6df2b)
+
+# Calculating whether all of AWS combined is capable of decrypting your protected plaintext to alert you, since Encryption, by PDFSage stores your plaintext; you could "copy" to clipboard directly from secure password services in macos, windows, and linux without revealing anything to OBS streaming your passwords.
+
+![Screenshot 2025-05-06 at 8 27 40 PM](https://github.com/user-attachments/assets/9412f907-05aa-4166-829a-6c79057168b7)
+
+
+
 # prebuild_erosolar_dot_online
 
 /etc/nginx/sites-available/erosolar.conf
