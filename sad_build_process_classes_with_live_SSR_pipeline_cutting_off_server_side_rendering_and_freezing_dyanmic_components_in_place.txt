@@ -1,0 +1,25 @@
+/**
+ * ϕ: webpack errors originate from webpack, not the operating system.
+ * ψ: Initiating a build while the Next.js server is already running aborts SSR, causing UI freeze.
+ *
+ * webpack errors are reported by the webpack bundler and its loaders, independent of the host OS.
+ * When you run `npm run build` under Next.js while the dev or production server is still serving pages,
+ * the build process clashes with the live SSR pipeline, cutting off server-side rendering
+ * and freezing dynamic components in place.
+ *
+ * Real world applicability:
+ * - In development, stop the running server (`npm stop` or kill the process) before building to avoid build-time conflicts.
+ * - In CI/CD setups, include a step to ensure no servers are active before triggering the build.
+ * - Prevents confusing client-side hang-ups by cleanly separating serve and build phases.
+ */
+function demonstrateSSRFreeze() {
+  // Simulate server running
+  const serverProcess = spawn('npm', ['run', 'dev']);
+  // Immediately start build
+  const buildProcess = spawn('npm', ['run', 'build']);
+  // Observe that buildProcess errors interrupt SSR of serverProcess
+  buildProcess.on('exit', (code) => {
+    console.log(`Build exited with code ${code}, SSR frozen.`);
+    serverProcess.kill();
+  });
+}

@@ -1,5 +1,44 @@
 # Twitch celebrates Women's history month not requiring me to see exactly how many users they have without a dev account; it's just the most recent user number user_id parameter in their API
 
+PS C:\Github\prebuild_erosolar_dot_online> npm run build
+
+> fresh-nextjs-app@1.0.0 build
+> next build
+
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+   ▲ Next.js 15.2.1
+
+ ✓ Linting and checking validity of types    
+   Creating an optimized production build ...
+Failed to compile.
+
+./pages/index.js
+Error:   x Expected ',', got ';'
+    ,-[C:\Github\prebuild_erosolar_dot_online\pages\index.js:32:1]
+ 29 |   const [showAdvancedInfo, setShowAdvancedInfo] = useState(true);
+ 30 |
+ 31 |   const [users, setUsers] = useState<
+ 32 |     { email: string; salt: string; hash: string; len: number }[]
+    :                    ^
+ 33 |   >([]);
+ 34 |   const [log, setLog] = useState<string[]>([]);
+ 34 |   const [math, setMath] = useState<Record<string, unknown>>({});
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./pages/index.js
+
+
+> Build failed because of webpack errors
+
+
 ![Screenshot 2025-05-06 at 8 24 21 PM](https://github.com/user-attachments/assets/17975d33-bfdc-4de4-b562-51ca35e6df2b)
 
 # Calculating whether all of AWS combined is capable of decrypting your protected plaintext to alert you, since Encryption, by PDFSage stores your plaintext; you could "copy" to clipboard directly from secure password services in macos, windows, and linux without revealing anything to OBS streaming your passwords.
